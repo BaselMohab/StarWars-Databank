@@ -23,7 +23,7 @@ Ensure that you have the following installed:
 2. **Navigate to the project directory:**
 
    ```bash
-    cd starwars-project
+    cd StarWars-Databank-main
 
 3. **Install the dependencies**:
 
