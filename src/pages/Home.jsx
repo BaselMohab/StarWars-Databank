@@ -3,6 +3,7 @@ import 'animate.css';
 import "../background.css";
 import { Link } from 'react-router-dom';
 import starWarsIntro from '../assets/audio/starwars-intro.mp3';
+import starwarsLogo from '../assets/images/starwars-logo.png';
 
 export default function Home() {
   const audioRef = useRef(null);
@@ -28,7 +29,7 @@ export default function Home() {
         <div id="stars4"></div>
         <div className="flex flex-col items-center justify-center min-h-screen">
           <div className="flex items-center justify-center">
-            <img src="src/assets/images/starwars-logo.png" className='starwars-logo  animate__animated animate__fadeInUp animate__slower' alt="Star Wars Logo"/>
+            <img src={starwarsLogo} className='starwars-logo  animate__animated animate__fadeInUp animate__slower' alt="Star Wars Logo"/>
           </div>
           <div className="mb-20 animate__animated animate__fadeInUp animate__slower">
             <Link to="/library" className="explore-button px-10 py-4 capitalize text-xl rounded-lg ">

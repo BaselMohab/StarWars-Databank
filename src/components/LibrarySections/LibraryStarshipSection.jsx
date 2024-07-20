@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import xwing from '../../assets/images/starships/X-wing.jpeg';
 
 
 export default function LibraryStarshipSection() {
@@ -13,7 +14,7 @@ return (
     <div  className="p-8 md:p-12 bg-yellow-500 text-black">
         <h3 className="text-3xl mb-4 text-start font-bold uppercase">starships</h3>
         <div className='flex flex-col lg:flex-row gap-10 items-center'>
-        <img src="src\assets\images\starships\X-wing.jpeg" alt="xwing" className="w-full md:w-96 h-auto object-cover rounded-lg shadow-lg"/>
+        <img src={xwing} alt="xwing" className="w-full md:w-96 h-auto object-cover rounded-lg shadow-lg"/>
         <div className="flex flex-col justify-center">
             <p className="text-lg md:text-2xl mb-4">
             Starships are a crucial element of the Star Wars universe, enabling travel across the galaxy and playing pivotal roles in battles and adventures. The Millennium Falcon, Han Solo's iconic freighter, is one of the most recognizable ships. X-wings and TIE fighters are the primary starfighters of the Rebel Alliance and the Galactic Empire, respectively.                </p>

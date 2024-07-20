@@ -22,7 +22,7 @@ import NotFound from './pages/NotFound';
 
 const router = createBrowserRouter([
   {
-    path: '/home',
+    path: '/',
     element: <Home />,
   },
   {

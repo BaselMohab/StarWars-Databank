@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import endor from '../../assets/images/planets/Endor.jpg'
 
 export default function LibraryPlanetSection() {
 
@@ -12,7 +13,7 @@ return (
     <div className="p-8 md:p-12 bg-black text-black min-h-screen">
     <h3 className="text-3xl text-yellow-500 mb-4 text-start font-bold uppercase">planets</h3>
     <div className='flex flex-col lg:flex-row-reverse gap-10 items-center'>
-        <img src="src\assets\images\planets\Endor.jpg" alt="endor" className="w-full md:w-96 h-auto object-cover rounded-lg shadow-lg"/>
+        <img src={endor} alt="endor" className="w-full md:w-96 h-auto object-cover rounded-lg shadow-lg"/>
         <div className="flex flex-col justify-center">
         <p className="text-lg text-white md:text-2xl mb-4">
         The Star Wars galaxy is vast, with countless planets each offering unique environments and cultures. Tatooine, a desert planet, is the home of Anakin and Luke Skywalker. Alderaan, a peaceful world, is destroyed by the Death Star. Hoth, an icy planet, serves as the Rebel Alliance's base in "The Empire Strikes Back." 

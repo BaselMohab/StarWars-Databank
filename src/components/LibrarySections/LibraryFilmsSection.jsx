@@ -1,5 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import newHope from '../../assets/images/films/a-new-hope.jpg'
 
 export default function LibraryFilmsSection({ scrollToSectionRef }) {
 
@@ -13,7 +14,7 @@ return (
     <div ref={scrollToSectionRef} className="p-8 md:p-12 bg-yellow-500 text-black min-h-screen">
         <h3 className="text-3xl mb-4 text-start font-bold uppercase">Films</h3>
         <div className='flex flex-col lg:flex-row gap-10 items-center'>
-            <img src="src/assets/images/films/a-new-hope.jpg" alt="A New Hope" className="w-full md:w-96 h-auto object-cover rounded-lg shadow-lg"/>
+            <img src={newHope} alt="A New Hope" className="w-full md:w-96 h-auto object-cover rounded-lg shadow-lg"/>
             <div className="flex flex-col justify-center">
                 <p className="text-lg md:text-2xl mb-4">
                     The Star Wars saga, created by George Lucas, began in 1977 with the release of "Star Wars: Episode IV - A New Hope." It introduced audiences to a galaxy far, far away, filled with iconic characters, advanced technology, and epic battles between good and evil. The original trilogy, followed by two sequels ("The Empire Strikes Back" in 1980 and "Return of the Jedi" in 1983), became a cultural phenomenon.

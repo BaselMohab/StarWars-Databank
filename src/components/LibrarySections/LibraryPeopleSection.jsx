@@ -1,4 +1,5 @@
 import { useNavigate } from 'react-router-dom';
+import obi from '../../assets/images/people/obi.jpg';
 
 
 export default function LibraryPeopleSection() {
@@ -13,7 +14,7 @@ return (
 <div className="p-8 md:p-12 bg-black text-black min-h-screen">
 <h3 className="text-3xl text-yellow-500 mb-4 text-start font-bold uppercase">People</h3>
     <div className='flex flex-col lg:flex-row-reverse gap-10 items-center'>
-    <img src="src/assets/images/people/obi.jpg" alt="Obi" className="w-full md:w-96 h-auto object-cover rounded-lg shadow-lg"/>
+    <img src={obi} alt="Obi" className="w-full md:w-96 h-auto object-cover rounded-lg shadow-lg"/>
     <div className="flex flex-col justify-center">
         <p className="text-lg text-white md:text-2xl mb-4">
         The Star Wars universe is populated by a diverse array of characters, both heroes and villains. Key figures include Luke Skywalker, a farm boy who becomes a Jedi Knight and hero of the Rebel Alliance; Princess Leia Organa, a leader of the rebellion and Luke's sister; Han Solo, a smuggler with a heart of gold; and Darth Vader, a fallen Jedi Knight who becomes the Sith Lord serving the Emperor.            </p>
