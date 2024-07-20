@@ -23,7 +23,7 @@ Ensure that you have the following installed:
 2. **Navigate to the project directory:**
 
    ```bash
-    cd StarWars-Databank
+    cd star-wars-data-bank
 
 3. **Install the dependencies**:
 
@@ -41,7 +41,7 @@ To start the development server:
     # or
     yarn dev
 
-Open your browser and go to http://localhost:3000 to view the application.
+Open your browser and go to  http://localhost:5174/ to view the application.
 
 Building for Production
 
