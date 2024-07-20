@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.cdnfonts.com/css/star-wars');
+            
+
+:root {
+/* Color Theme Swatches in Hex */
+--white--: #ffff;
+--blue--: #3D5B81;
+--babyblue--: #9EF8EE;
+--skyblue--:#9BC0D9;
+--lightblue--:#DFFBFC;
+--lightgray--: #a59f9f;
+--lightgrey--: #dbd7d7;
+--yellow--: yellow;
+--black--:#0F0402;
+--orange--:#EE6B4D;
+--darkblue--:#293241;
+    --transition:  0.3s ease;
+    --spacing: 0.1rem;
+    --radius: 0.25rem;
+    --radius-2: 0.40rem;
+    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    --exdark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    --max-width: 1170px;
+    --fixed-width: 620px;
+    --font-size-logo: 2rem;
+    --font-size-nav: 1rem;
+    --borderclr--:#0857CC;
+    --fontWeigh1-1--: 300;
+    --fontWeigh1-4--: 800;
+}
+body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.starwars-logo{
+width: 50rem;
+margin-top: -20vh;
+}
+
+.explore-button {
+color: white;
+text-shadow: none;
+background: transparent;
+cursor: pointer;
+box-shadow: transparent;
+border: 1px solid #FFE81F;
+transition: 0.5s ease;
+user-select: none;
+}
+
+.explore-button:hover,
+.explore-button:focus {
+color: rgb(99, 97, 97);
+background: #FFE81F;
+border: 1px solid #FFE81F;
+text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+box-shadow: 0 0 5px #FFE81F, 0 0 20px #FFE81F, 0 0 50px #FFE81F,
+    0 0 100px #FFE81F;
+}
+
+
+.hero-caption{
+    font-family: 'Star Wars', sans-serif;
+    color: #ffe81F;
+    width:100%
+}
+
+.navbar-nav{
+    background-color: black;
+    color: var(--yellow--);
+    box-shadow: var(--light-shadow);
+    border-radius: var(--radius);
+    border: 2px solid;
+    border-color: var(--yellow--);
+    position: fixed;
+    z-index: 2;
+    }
+    
+    .navbar-link{
+    font-size: var(--font-size-nav);
+    font-weight: 300;
+    transition: var(--transition);
+    }
+    
+    .navbar-link:hover{
+    color: var(--white--);
+    }
+    
+    .navbar-toggler{
+    font-size: 2rem;
+    color: var(--white--);
+    transition: transform 0.3s ease; 
+    }
+    
+    .navbar-toggler.rotate {
+        transform: rotate(-90deg);
+    }
+
+    .galaxy {
+        background: url('./assets/images/galaxia.png') no-repeat center center fixed;
+        background-size: cover;
+      }
+      
+      .text-yellow-500 {
+        color: #FFD700;
+      }
+      
+      .card {
+        background-color: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      
+      .card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+      }
+
+
+@media (max-width: 768px) {
+  .starwars-logo{
+    width: 35rem;
+  }
+  .navbar {
+    justify-content: flex-end;
+    top: 0; 
+    right: 0;
+    padding: 1rem 2rem;
+  }
+  .navbar-nav{
+  position: fixed;
+  z-index: 2;
+  width: 80%;
+  }
+  .navbar-toggler{
+  position: fixed;
+  z-index: 2;
+  }
+}
+
+@media (max-width: 485px) {
+  .starwars-logo{
+    width: 20rem;
+  }
+}
+    
+
+
+
+
+
+
