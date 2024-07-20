@@ -41,7 +41,7 @@ To start the development server:
     # or
     yarn dev
 
-Open your browser and go to [http://localhost:3000](http://localhost:5174/) to view the application.
+Open your browser and go to http://localhost:3000 to view the application.
 
 Building for Production
 
