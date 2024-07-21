@@ -1,6 +1,11 @@
-# Star Wars Data Bank
+# Star Wars Databank
 
 Welcome to the Star Wars Data Bank project! This application displays comprehensive Star Wars data, including films, people, species, planets, and starships, utilizing the SWAPI (Star Wars API). Built with React and Vite, the project features modern styling with Tailwind CSS, Material Tailwind, and Animate.css. React Redux manages the state and API fetching.
+
+
+## Demo
+
+https://starwars-databank123.netlify.app/
 
 ## Getting Started
 
