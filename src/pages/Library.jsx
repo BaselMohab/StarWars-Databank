@@ -18,11 +18,11 @@ return (
   <>
     <div className="grid grid-cols-1 galaxy min-h-screen">
       <div className="flex flex-col justify-center items-center py-32">
-        <h2 className="hero-caption px-5 text-4xl lg:text-5xl xl:text-7xl text-center leading-normal">
+        <h2 className="hero-caption px-5 text-2xl lg:text-5xl xl:text-7xl text-center leading-normal">
           Journey through the galaxy and explore all the adventures, people, spaceships, and alien species in the Star Wars universe!
         </h2>
         <button 
-          className="mt-5 bg-yellow-400 text-black px-6 py-1 rounded-lg text-xl hover:bg-yellow-300 transition-all duration-300 flex flex-col items-center"
+          className="mt-5 bg-yellow-400 text-black px-6 py-1 rounded-lg text-md md:text-xl hover:bg-yellow-300 transition-all duration-300 flex flex-col items-center"
           onClick={scrollToSection}
         >
           Scroll to explore

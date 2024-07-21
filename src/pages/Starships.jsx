@@ -40,12 +40,12 @@ export default function Starships() {
     <div className="p-8 mt-32 bg-black min-h-screen">
       <div className="flex justify-end mb-8">
         <Breadcrumbs className="text-yellow-500 bg-transparent">
-          <Link to="/library" className="text-xl text-yellow-400 hover:text-white capitalize">
+          <Link to="/library" className="text-xl capitalize text-black border border-yellow-400  bg-yellow-400 rounded-md px-3 py-1 hover:bg-black hover:text-yellow-400 transition-all">
             library
           </Link>
-          <Link to="/starships" className="text-xl text-yellow-400 hover:text-white capitalize">
+          <p className="text-xl text-yellow-400 capitalize cursor-default">
             starships
-          </Link>
+          </p>
         </Breadcrumbs>
       </div>
       <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">

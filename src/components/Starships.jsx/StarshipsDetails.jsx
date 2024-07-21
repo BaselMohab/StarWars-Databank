@@ -40,15 +40,15 @@ export default function StarshipDetails() {
     <div className="min-h-screen p-10 mt-20 text-white galaxy">
       <div className="flex justify-end mb-8">
         <Breadcrumbs className="text-yellow-500 bg-transparent">
-          <Link to="/library" className="text-xl text-yellow-400 hover:text-white capitalize">
+          <Link to="/library" className="text-xl capitalize text-black border border-yellow-400  bg-yellow-400 rounded-md px-3 py-1 hover:bg-black hover:text-yellow-400 transition-all">
             library
           </Link>
-          <Link to="/starships" className="text-xl text-yellow-400 hover:text-white capitalize">
+          <Link to="/starships" className="text-xl capitalize text-black border border-yellow-400  bg-yellow-400 rounded-md px-3 py-1 hover:bg-black hover:text-yellow-400 transition-all">
             starships
           </Link>
-          <Link to="/starships:id" className="text-xl text-yellow-400 hover:text-white capitalize">
+          <p className="text-xl text-yellow-400 capitalize cursor-default">
             {starship.name}
-          </Link>
+          </p>
         </Breadcrumbs>
       </div>
     <div className="flex flex-col md:flex-row mb-20 items-center">
